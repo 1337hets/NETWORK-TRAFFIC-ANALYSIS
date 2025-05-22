@@ -19,6 +19,9 @@ During a packet capture review using Wireshark, suspicious TCP communication was
 📸 Screenshot 1: Initial Traffic View in Wireshark
 This screenshot captures the initial view of the .pcap file loaded in Wireshark. It shows raw network traffic with various source and destination IPs, protocols, ports, and timestamps.
 
+   Screenshot Key & Descriptions
+📸 Screenshot 1: Initial Traffic View in Wireshark
+This screenshot captures the initial view of the .pcap file loaded in Wireshark. It shows raw network traffic with various source and destination IPs, protocols, ports, and timestamps.
 📝 At this point, the suspicious activity hasn’t been isolated. This view represents the entire captured network traffic, from which potential anomalies need to be identified.
 
 📸 Screenshot 2: Navigating to 'Statistics → Conversations'
