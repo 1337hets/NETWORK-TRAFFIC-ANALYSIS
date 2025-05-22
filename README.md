@@ -1,4 +1,4 @@
-# NETWORK-TRAFFIC-ANALYSIS
+# C2 DETECTION
 Investigation and incident report on suspected Command-and-Control (C2) traffic.
  Summary
 
@@ -17,7 +17,7 @@ During a packet capture review using Wireshark, suspicious TCP communication was
 - Incident response documentation
 - TCP stream investigation
   
-   Screenshot Key & Descriptions
+##   Screenshot Key & Descriptions
   
 📸 Screenshot 1: Initial Traffic View in Wireshark
 This screenshot captures the initial view of the .pcap file loaded in Wireshark. It shows raw network traffic with various source and destination IPs, protocols, ports, and timestamps.
