@@ -16,10 +16,9 @@ During a packet capture review using Wireshark, suspicious TCP communication was
 - Threat intelligence correlation
 - Incident response documentation
 - TCP stream investigation
-📸 Screenshot 1: Initial Traffic View in Wireshark
-This screenshot captures the initial view of the .pcap file loaded in Wireshark. It shows raw network traffic with various source and destination IPs, protocols, ports, and timestamps.
-
+  
    Screenshot Key & Descriptions
+  
 📸 Screenshot 1: Initial Traffic View in Wireshark
 This screenshot captures the initial view of the .pcap file loaded in Wireshark. It shows raw network traffic with various source and destination IPs, protocols, ports, and timestamps.
 📝 At this point, the suspicious activity hasn’t been isolated. This view represents the entire captured network traffic, from which potential anomalies need to be identified.
@@ -38,5 +37,6 @@ This screenshot shows the Conversations window where I identified and selected t
 The final screenshot displays the TCP stream output, which revealed a sequence of unreadable, likely encrypted or obfuscated data flowing from the internal device to the external IP.
 
 📝 This strongly indicated the presence of Command-and-Control (C2) activity, as the data was not in plain text and didn’t resemble typical service traffic like HTTP, DNS, or SSL.
+
 ## 📅 Date of Investigation
 21/05/2025
